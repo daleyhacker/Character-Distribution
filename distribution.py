@@ -52,9 +52,9 @@ for c in string.ascii_lowercase:
         list1.append(c * text.count(c))
 
 
-#print(list.sort(list1, key=len)
-
-print(sorted(list1, key=len, reverse=True))
+final = (sorted(list1, key=len, reverse=True))
+for a in final:
+    print(a)
 
 
 
