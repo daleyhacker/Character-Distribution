@@ -38,11 +38,27 @@ Notice about this example:
 """
 import string
 
-text = input("Please enter a string of text (the bigger the better): ")
+text = str(input("Please enter a string of text (the bigger the better): "))
 print('The distribution of characters in "' + text + '" is: ')
 
 #Makes text lowercase
 text = text.lower()
+
+
+list1 = []
+
+for c in string.ascii_lowercase:
+    if text.count(c) != 0:
+        list1.append(c * text.count(c))
+print(list1)
+
+#print(list.sort(list1, key=len)
+
+print(sorted(list1, reverse=True))  ## [1, 3, 4, 5]
+print(list1)
+print(list.sort(list1, key=len)
+
+"""
 
 a = text.count('a')
 b = text.count('b')
@@ -127,11 +143,8 @@ if z >= 1:
 else:
     print('')
 
+"""
 
-
-
-az = string.ascii_lowercase
-print(az)
 
 
 
