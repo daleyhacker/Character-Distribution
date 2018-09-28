@@ -50,13 +50,13 @@ list1 = []
 for c in string.ascii_lowercase:
     if text.count(c) != 0:
         list1.append(c * text.count(c))
-print(list1)
+
 
 #print(list.sort(list1, key=len)
 
-print(sorted(list1, reverse=True))  ## [1, 3, 4, 5]
-print(list1)
-print(list.sort(list1, key=len)
+print(sorted(list1, key=len, reverse=True))
+
+
 
 """
 
