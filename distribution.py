@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: Patrick Daley   
-Credit: <list sources used, if any>
+Credit: Classmate and https://developers.google.com/edu/python/sorting
 
 Assignment:
 
